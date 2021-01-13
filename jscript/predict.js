@@ -33,7 +33,7 @@ let model;
 (async function () {
 	
 	model = await tf.loadModel('../model_v2/model.json');
-	$("#selected-image").attr("src", "../assets/auntminnie-2020_01_31_20_24_2322_2020_01_31_x-ray_coronavirus_US.jpg")
+	$("#selected-image").attr("src", "../assets/5522_DSC03886.jpg")
 	
 	$('.progress-bar').hide();
 
